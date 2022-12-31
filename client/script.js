@@ -57,14 +57,11 @@ function chatStripe(isAi, value, uniqueId) {
                     alt="${isAi ? 'bot' : 'user'}" 
                   />
               </div>
-              
-              <div class="message" id=${uniqueId}>${marked(value)}</div>
-          </div>
+              <div class="message" id=${uniqueId}>${value}</div>
           </div>
       </div>
   `
   )
-  //<div class="message" id=${uniqueId}>${value}</div>
 }
 
   const handleSubmit = async (e) => {
