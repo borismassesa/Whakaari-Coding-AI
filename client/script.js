@@ -89,7 +89,7 @@ function chatStripe(isAi, value, uniqueId) {
 
     // fetch data from the server  to -> bot's response
 
-    const response = await fetch('http://localhost:5050', {
+    const response = await fetch('https://whakaari-codeai.onrender.com', {
       method: 'POST' ,
       headers: {
         'Content-Type': 'application/json'
