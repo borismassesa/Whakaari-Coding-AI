@@ -1,1 +1,4 @@
 # Whakaari-Coding-AI
+Whakaari AI is a project that engage users in a conversational manner like ChatGPT, a popular language model developed by Open AI. It provides users with intelligent and engaging responses to their questions. The project utilizes advanced natural language processing technology to understand the context and meaning of user queries and generates relevant and informative responses in real-time. Whether users are looking for information on a specific topic, seeking advice, or just want to have a conversation, Whakaari AI can provide them with the assistance they need. With its cutting-edge technology and user-friendly interface, Whakaari AI is poised to become a valuable resource for anyone looking to learn, connect, or simply have fun online.
+
+Here is the link for the Whakaari AI:  https://lnkd.in/gTBp6WTt
