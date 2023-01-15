@@ -43,6 +43,21 @@ body {
 #chat_container::-webkit-scrollbar {
   display: none;
 }
+/* .copy-button {
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.copy-button:hover {
+  background-color: #27ae60;
+} */
+
 
 .wrapper {
   width: 100%;
