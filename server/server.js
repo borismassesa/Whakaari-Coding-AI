@@ -34,6 +34,12 @@ app.post('/', async (req, res) => {
       top_p: 1, // alternative to sampling with temperature, called nucleus sampling
       frequency_penalty: 0.8, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.
       presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.
+    //   model: "gpt-3.5-turbo",
+    //   messages: [
+    //     { role: "system", content: "You are a helpful assistant." }, // this represents the bot and what role they will assume
+    //     { role: "user", content: text }, // the message that the user sends
+    //   ]
+
     });
     
 
