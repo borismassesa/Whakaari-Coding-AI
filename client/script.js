@@ -4,33 +4,6 @@ import user from './assets/user.svg';
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
 
-// // JavaScript code to add copy functionality to the copy button
-// const copyButton = document.querySelector(".copy-button");
-
-// copyButton.addEventListener("click", () => {
-//   // Select the text in the code element
-//   const codeElement = document.querySelector("#chat_container");
-//   codeElement.select();
-
-//   // Copy the selected text to the clipboard
-//   document.execCommand("copy");
-
-//   // Alert the user that the code has been copied
-//   alert("Code copied to clipboard");
-// });
-
-// chatContainer.addEventListener("click", () => {
-//   // Check if the chat message contains code
-
-//   // Show or hide the copy button based on the presence of code
-//   if (chatContainer) {
-//     copyButton.style.display = "block";
-//   } else {
-//     copyButton.style.display = "none";
-//   }
-// });
-
-
 let loadInterval
 
 
@@ -90,30 +63,6 @@ function chatStripe(isAi, value, uniqueId) {
   `
   )
 }
-
-// function describeCode(code) {
-//   // Use OpenAI's ChatGPT to generate a description of the code
-//   const description = generateDescription(code);
-  
-//   // Return the description along with the code
-//   return `Code: \n${code}\nDescription: \n${description}`;
-// }
-
-// async function generateDescription(code) {
-//   // Set up the request to the OpenAI API
-//   const endpoint = "https://whakaari-codeai.onrender.com";
-//   const apiKey = "OPENAI_API_KEY";
-//   const headers = { "Content-Type": "application/json", "Authorization": `Bearer ${apiKey}` };
-//   const data = { "model": "chatGPT", "prompt": code };
-
-//   // Send the request to the OpenAI API
-//   const response = await fetch(endpoint, { method: "POST", headers: headers, body: JSON.stringify(data) });
-//   const json = await response.json();
-
-//   // Extract the description from the response
-//   return json.description;
-// }
-
 
   const handleSubmit = async (e) => {
     e.preventDefault()
